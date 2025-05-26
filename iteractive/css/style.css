@@ -20,10 +20,111 @@ body {
   align-items: center;
 }
 .hero-section .card {
-  flex-basis: 300px;
-  background-color: orange;
+  width: 100vw;
   height: 100vh;
-  width: 50%;
+  position: relative;
+  width: 100%;
+  background-color: hsl(278, 68%, 11%);
+  background: repeating-linear-gradient(to bottom right, hsl(278, 68%, 11%), pink);
+}
+@media (min-width: 992px) {
+  .hero-section .card {
+    max-width: 400px;
+    height: 100vh;
+    flex-basis: 300px;
+  }
+}
+.hero-section .card .card-one {
+  z-index: 1;
+  top: 10rem;
+  left: 9rem;
+  border-radius: 10px;
+  padding: 2rem 0 0 2rem;
+  position: absolute;
+  width: 360px;
+  height: 220px;
+  background-color: blue;
+  background: linear-gradient(145deg, #1e3c72, #2a5298, #a044ff, #6a3093, pink, orange);
+}
+@media (min-width: 992px) {
+  .hero-section .card .card-one {
+    top: 6rem;
+    left: 4rem;
+  }
+}
+.hero-section .card .card-one .header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.hero-section .card .card-one .header .circle {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+}
+.hero-section .card .card-one .header .circle-one {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.hero-section .card .card-one h3 {
+  margin: 3rem 0 1rem;
+  color: hsl(0, 100%, 100%);
+  letter-spacing: 5px;
+  font-weight: weight;
+}
+.hero-section .card .card-one div {
+  display: flex;
+  gap: 8rem;
+}
+.hero-section .card .card-one div p {
+  color: hsl(0, 100%, 100%);
+}
+.hero-section .card .card-two {
+  top: 2rem;
+  right: 2rem;
+  border-radius: 10px;
+  position: absolute;
+  width: 360px;
+  height: 220px;
+  background-color: hsl(0, 100%, 100%);
+  background: linear-gradient(to bottom right, hsl(0, 100%, 100%), hsl(270, 3%, 87%));
+}
+@media (min-width: 992px) {
+  .hero-section .card .card-two {
+    top: 22rem;
+    left: 8rem;
+  }
+}
+.hero-section .card .card-two .color {
+  background-color: black;
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+}
+.hero-section .card .card-two .text {
+  background-color: hsl(212, 12%, 71%);
+  margin: 1rem 2.5rem 1rem 2.5rem;
+  width: 80%;
+  text-align: right;
+  padding: 0.6rem 1rem;
+  color: hsl(0, 100%, 100%);
+}
+.hero-section .card .card-two .para {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 2rem;
+}
+.hero-section .card .card-two .para p {
+  font-size: 13px;
+}
+.hero-section .card-input {
+  transform: translateX(300px);
 }
 .hero-section .card-input input::-moz-placeholder {
   color: rgba(128, 128, 128, 0.603);

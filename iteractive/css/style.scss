@@ -31,118 +31,7 @@ body {
 //     flex-direction: row;
 //   }
 
-//   .card {
-//     width: 100vw;
-//     height: 100vh;
-//     position: relative;
-//     width: 100%;
-    
-//     background-color: $Purple-950;
-//     background: repeating-linear-gradient(to bottom right, $Purple-950, pink);
-//     @media (min-width: 992px) {
-//       // width: 100%;
-//       max-width: 400px;
-//       height: 100vh;
-//       flex-basis: 300px;
-//     }
-//     .card-one {
-//       @media (min-width: 992px) {
-//         top: 6rem;
-//         left: 4rem;
-//       }
-//       z-index: 1;
-//       top: 10rem;
-//       left: 9rem;
-//       border-radius: 10px;
-//       padding: 2rem 0 0 2rem;
-//       position: absolute;
-//       width: 360px;
-//       height: 220px;
-//       background-color: blue;
-//       background: linear-gradient(
-//         145deg,
-//         #1e3c72,
-//         #2a5298,
-//         #a044ff,
-//         #6a3093,
-//         pink,
-//         orange
-//       );
-
-//       .header {
-//         display: flex;
-//         align-items: center;
-//         gap: 1rem;
-
-//         .circle {
-//           width: 40px;
-//           height: 40px;
-//           background-color: white;
-//           border-radius: 50%;
-//         }
-//         .circle-one {
-//           width: 20px;
-//           height: 20px;
-//           border-radius: 50%;
-//           border: 2px solid white;
-//         }
-//       }
-//       h3 {
-//         margin: 3rem 0 1rem;
-//         color: $White;
-//         letter-spacing: 5px;
-//         font-weight: weight;
-//       }
-//       div {
-//         display: flex;
-//         gap: 8rem;
-//         p {
-//           color: $White;
-//         }
-//       }
-//     }
-//     .card-two {
-//       @media (min-width: 992px) {
-//         top: 22rem;
-//         left: 8rem;
-//       }
-//       top: 2rem;
-//       right: 2rem;
-//       border-radius: 10px;
-
-//       position: absolute;
-//       width: 360px;
-//       height: 220px;
-//       background-color: $White;
-//       background: linear-gradient(to bottom right, $White, $Gray-200);
-
-//       .color {
-//         background-color: black;
-//         width: 100%;
-//         height: 40px;
-//         margin-top: 20px;
-//       }
-//       .text {
-//         background-color: $Gray-400;
-//         margin: 1rem 2.5rem 1rem 2.5rem;
-//         width: 80%;
-//         text-align: right;
-//         padding: 0.6rem 1rem;
-//         color: $White;
-//       }
-//       .para {
-//         display: flex;
-//         flex-direction: column;
-//         justify-content: center;
-//         align-items: center;
-//         color: rgba(0, 0, 0, 0.5);
-//         margin-top: 2rem;
-//         p {
-//           font-size: 13px;
-//         }
-//       }
-//     }
-//   }
+//  
 // 
 // }
 .hero-section{
@@ -151,14 +40,120 @@ body {
   display: flex;
   align-items: center;
   // gap: 5rem;
-  .card{
- flex-basis: 300px;
- background-color: orange;
- height: 100vh;
- width: 50%;
+ .card {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    
+    background-color: $Purple-950;
+    background: repeating-linear-gradient(to bottom right, $Purple-950, pink);
+    @media (min-width: 992px) {
+      // width: 100%;
+      max-width: 400px;
+      height: 100vh;
+      flex-basis: 300px;
+    }
+    .card-one {
+      @media (min-width: 992px) {
+        top: 6rem;
+        left: 4rem;
+      }
+      z-index: 1;
+      top: 10rem;
+      left: 9rem;
+      border-radius: 10px;
+      padding: 2rem 0 0 2rem;
+      position: absolute;
+      width: 360px;
+      height: 220px;
+      background-color: blue;
+      background: linear-gradient(
+        145deg,
+        #1e3c72,
+        #2a5298,
+        #a044ff,
+        #6a3093,
+        pink,
+        orange
+      );
+
+      .header {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        .circle {
+          width: 40px;
+          height: 40px;
+          background-color: white;
+          border-radius: 50%;
+        }
+        .circle-one {
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          border: 2px solid white;
+        }
+      }
+      h3 {
+        margin: 3rem 0 1rem;
+        color: $White;
+        letter-spacing: 5px;
+        font-weight: weight;
+      }
+      div {
+        display: flex;
+        gap: 8rem;
+        p {
+          color: $White;
+        }
+      }
+    }
+    .card-two {
+      @media (min-width: 992px) {
+        top: 22rem;
+        left: 8rem;
+      }
+      top: 2rem;
+      right: 2rem;
+      border-radius: 10px;
+
+      position: absolute;
+      width: 360px;
+      height: 220px;
+      background-color: $White;
+      background: linear-gradient(to bottom right, $White, $Gray-200);
+
+      .color {
+        background-color: black;
+        width: 100%;
+        height: 40px;
+        margin-top: 20px;
+      }
+      .text {
+        background-color: $Gray-400;
+        margin: 1rem 2.5rem 1rem 2.5rem;
+        width: 80%;
+        text-align: right;
+        padding: 0.6rem 1rem;
+        color: $White;
+      }
+      .para {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: rgba(0, 0, 0, 0.5);
+        margin-top: 2rem;
+        p {
+          font-size: 13px;
+        }
+      }
+    }
   }
     .card-input {
- 
+ transform: translateX(300px);
 
     input::placeholder {
       color: rgba(128, 128, 128, 0.603);
